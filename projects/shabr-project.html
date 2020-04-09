@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -27,62 +27,98 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link" href="https://jianfengl0797.github.io/"<img src="../img/jianfeng.png" class="img-fluid project-img">></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" id="github" target="_blank">Github</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- First Container -->
-    <div class="container-fluid bg-1">
+    <div class="container-fluid bg-1 text-center">
+        <h1 class="margin">JianFeng</h1>
+        <img src="img/logo.png" class="img-fluid" alt="Logo" id="logo">
+    </div>
+
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center" id="projects">
+        <h3 class="margin">Projects</h3>
+        <p></p>
         <div class="container">
-
-            <h1 class="margin text-center">Shabr</h1>
-             <p> This is my Shabr project that I create using my knowledge of Bootstrap that I learned on my own. Over a week, I learned parts of bootstrap slowly by myself on their website, and used it whenever needed. </p>
-             <p>There were a few challenges that I came across doing this project. The one that I remember the most is messing up the order of my code. I added the link for bootstrap and the things needed for popover in the wrong order, and I was super confused at first why it didn't work. Luckily, I tinkered with the code around and found the solution. Another challenge that was at the same time fun was tinkering with new code. I have to read it slowly, part by part, to understand what's going on and where changes are needed. During this process, I realized that a "safety dump" really helped me out while coding. Since I was afraid I would break my code, I copy and pasted my original code at the bottom as a comment in case I need it back. </p>
-             <p>I feel like this was my proudest and most fun project because I can create a website on my own however I like it. It was frustrating at times, but it only satisfies me after I understand the tool in the end. </p>
-            <a href="https://jianfengl0797.github.io/shabr-project/">Link about the project</a><br>
-
-            <!--EXAMPLE OF PREVIEW LINK-->
-            <!--<a href="http://yourUserName.github.io/yourRepoName">Preview</a>-->
-            <!--EXAMPLE OF GITHUB LINK-->
-            <!--<a href="http://github.com/yourUserName/yourRepoName">Github</a>-->
-
-            <img src="../img/jianfeng.png" class="img-fluid project-img">
-
-
             <div class="row">
 
-                <!--
-                <div class="col-sm-6">
-                    Use this to...
+
+               <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Copy-Cat Project</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">11th Grade</h6>
+                            <p class="card-text">Copying the website DeltaMath by using reverse-engineering.</p>
+                            <a href="projects/copy-cat-project.html" class="project-link">More</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    ...make two columns
+
+                 <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">CYOA Project</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">11th Grade</h6>
+                            <p class="card-text">A project where users pick between 2 events to create their story.</p>
+                            <a href="projects/cyoa-project.html" class="project-link">More</a>
+                        </div>
+                    </div>
                 </div>
-                -->
+
+                 <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">SHABR Project</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">11th Grade</h6>
+                            <p class="card-text">Creating a website for a fake Hot Air Balloon Company.</p>
+                            <a href="projects/shabr-project.html" class="project-link">More</a>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
+        </div>
+        </a>
+    </div>
 
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center">
+        <h3 class="margin">About Me</h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>I go to Hstat and my favorite subject in school is physical education and science.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>I enjoy playing badminton with my friend and family.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>I like to play games, hang out with friends, or study during my free time.</p>
+            </div>
         </div>
     </div>
 
-
-
     <!-- Footer -->
     <footer class="container-fluid bg-4 text-center">
-        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="#" target="_blank" id="fork"><img src="img/fork.png"></a><br>
         <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
     </footer>
 
 
-    <script src="../script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
